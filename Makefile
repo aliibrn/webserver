@@ -2,6 +2,7 @@ NAME = webserv
 
 SRCS = webserver.cpp \
 	set_config.cpp \
+	HttpRequest.cpp \
 
 OBJS = ${SRCS:.cpp=.o}
 CXX = c++ 
